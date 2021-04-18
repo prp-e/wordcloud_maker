@@ -29,7 +29,7 @@ python main.py tweets.txt Vazir.ttf
 Then the file `wc.png` will be created. That file actually includes your cloud. You also can change `twitter_mask.png` to whatever you want, but you'll need to modify the code yourself. 
 
 ## FAQ 
-*  __How can I extract all my tweets?__ There are two ways. First, you can request an API access from Twitter (through (this link)[https://developer.twitter.com]) or you can just use a tool like [twint](https://github.com/twintproject/twint). 
+*  __How can I extract all my tweets?__ There are two ways. First, you can request an API access from Twitter (through [this link](https://developer.twitter.com)) or you can just use a tool like [twint](https://github.com/twintproject/twint). 
 *  __Can I use it on a non-Persian text?__ Of course you can. But you need to modify the code. My suggestion is that simply read the code and re-implement it for your very own purpose. 
 *  __Does it work on non-tweet phrases?__ It works on evey text, as long as they're Persian. 
 *  __How can I contribute?__ Just fork this repository and do whatever you want. Pull requests are welcome. 
