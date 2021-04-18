@@ -90,7 +90,7 @@ weird_chars = re.compile("["
                                u"\u2067"
                                "]+", flags=re.UNICODE)
 
-clean_text = weridPatterns.sub(r'', clean_text)
+clean_text = weird_chars.sub(r'', clean_text)
 
 verbal_stops = open("verbal_stops.txt")
 verbal_stops = [stop.rstrip('\n') for stop in verbal_stops.readlines()]
