@@ -1,0 +1,6 @@
+hazm 
+wordcloud
+scipy 
+imageio
+python-bidi 
+arabic-reshaper 
