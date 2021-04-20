@@ -15,7 +15,8 @@ for obj in jsons:
 
 tweets = []
 for obj in jsons_parsed:
-    tweets.append(obj['tweet'])
+    text = obj['tweet']
+    tweets.append(text)
 
 with open('tweets.txt', 'w') as output:
     for tweet in tweets:
