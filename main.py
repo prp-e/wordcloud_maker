@@ -21,7 +21,7 @@ stop_words_additional = [word.rstrip('\n') for word in stop_words_additional.rea
 stop_words_me = open("stopwords_fa_me.txt")
 stop_words_me = [word.rstrip('\n') for word in stop_words_me.readlines()]
 
-stop_words = list(set(stop_words + stop_words_additional)) # Removing any duplicates wich can happen
+stop_words = list(set(stop_words + stop_words_additional + stop_words_me)) # Removing any duplicates wich can happen
 
 text_file = open(sys.argv[1])
 text_file = text_file.readlines()
